@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Joshua Kim Computer Science</title>
+        <link rel="stylesheet" href="JoshuaKimStylesheet.css">
+    </head>
+    <body>
+        <div class="scroller fade">
+            <button onclick="scrollToTarget()" class="noBackground">
+                <h1 class="toggleWhite scrollButton spaced3px">Home</h1>
+            </button>
+            <button onclick="scrollToTarget2()" class="noBackground">
+                <h1 class="toggleWhite scrollButton spaced3px">About</h1>
+            </button>
+            <button onclick="scrollToTarget3()" class="noBackground">
+                <h1 class="toggleWhite scrollButton spaced3px">Projects</h1>
+            </button>
+            <hr class="white-line">
+        </div>
+        <header class="box" id="id1">
+            <div class="temp_name">
+                <h1 id="name">Joshua A. Kim</h1>
+                <h3 class="centered white arialFont size">
+                <span>Researcher </span>
+                |
+                <span>Competitive Programmer</span>
+                |
+                <span>Developer</span>
+                </h3>
+                <div class="aligned_links">
+                    <a href="https://github.com/jkim236">
+                        <img id="link" src="github_logo.png" alt="Github Link">
+                        <img id="link2" src="github_logo_hovered.png" alt="Github Link Hovered">
+                    </a>
+                    <a href="https://www.linkedin.com/in/joshua-kim-aa0a30244/">
+                        <img id="LiLink" src="linkedin_logo.png" alt="linkedin link">
+                        <img id="LiLink2" src="linkedin_logo_hovered.png" alt="Github Link Hovered">
+                    </a>
+                    <a href="mailto:jkim236@uw.edu">
+                        <img id="MailLink" src="mail_logo.png" alt="email link">
+                        <img id="MailLink2" src="mail_logo_hovered.png" alt="Github Link Hovered">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="section2">
+            <div class="aboutMe" id="scrollToMe">
+                <h2 class="centered paddingTop aboutText tomato letterspacing5px">
+                    About
+                </h2>
+                <h1 class="centered paddingTop2 introductionText">Let me introduce myself.</h1>
+                <div class="sidewavey">
+                    <img class="circular-image" src="self_portrait.png" alt="Your image description">
+                    <h6 class="centered gray timesNewRomans width650">
+                        I am a student currently studying at the University of Washington passionate about the field of computer science. 
+                        Specifically, I am interested in the implications of computer science 
+                        in improving payment systems in healthcare and patient outcomes.
+                        My primary interests are payment systems, software development,
+                        and algorithm development and optimization.
+                    </h6>
+                </div>
+                <div class="profile_skills">
+                    <div class="profile">
+                        <h3 class="white openSans spaced3px centeredIf">PROFILE</h3>
+                        <p class="gray spaced strong-padding flexyWidth arialFont centeredIf">I am currently an undergraduate researcher at the University of Washington. 
+                            I am open to a new software engineering or research internship opportunities. 
+                            If you think I'm a good fit, please contant me via <a class="mailto-link" href="mailto:jkim236@uw.edu">jkim236@uw.edu</a>.</p>
+                        <ul class="info-list flexyWidth leftpadding5">
+                           <li class="super-strong-padding">
+                              <strong class="strong">FULLNAME:</strong>
+                           </li>
+                           <li>
+                                <span class="liElement">Joshua Alexander Kim</span>
+                           </li>
+                           <li class="strong-padding">
+                              <strong class="strong">BIRTH DATE:</strong>
+                           </li>
+                           <li>
+                                <span class="liElement"> August 8th, 2003</span>
+                          </li>
+                           <li class="strong-padding">
+                              <strong class="strong">EMAIL:</strong>
+                           </li>
+                           <li>
+                                <span class="liElement">jkim236@uw.edu</span>
+                           </li>
+                        </ul> 
+                     </div>
+                     <div class="skills centeredIf">
+                        <h3 class="white openSans spaced3px centeredIf">SKILLS</h3>
+                        <h3 class="gray spaced strong-padding arialFont centeredIf">
+                            I relish the opportunity to expand my knowledge and tackle new challenges. 
+                            Discover the key aspects of my skills and experience by hovering over the skill cards provided below.
+                        </h3>
+                        <div class="skill-container">
+                            <div class="skill-card">
+                              <div class="skill-icon">
+                                <img src="java_logo.png" alt="Java Icon">
+                              </div>
+                              <div class="skill-description">
+                                Extensive Java programming expertise, with experience in object-oriented projects and implementation of complex algorithms.
+                            </div>
+                            </div>
+                            <div class="skill-card2">
+                              <div class="skill-icon2">
+                                <img src="uw_medicine_logo.png" alt="Java Icon">
+                              </div>
+                              <div class="skill-description">
+                                 Under the guidance of UW Medicine alumni and professors, gained experience in research publication and presentation.
+                            </div>
+                        </div>
+                        <div class="skill-container">
+                            <div class="skill-card3">
+                              <div class="skill-icon">
+                                <img src="appstore_logo.png" alt="Java Icon">
+                              </div>
+                              <div class="skill-description">
+                                Extensive swiftUI experience. Fullstack projects in addition to experience with databases. 
+                            </div>
+                            </div>
+                            <div class="skill-card4">
+                              <div class="skill-icon">
+                                <img src="R_logo.png" alt="Java Icon">
+                              </div>
+                              <div class="skill-description">
+                                 Experience coding in R for data analysis and manipulation with large datasets. Findings led to abstracts
+                                 to be presented at academyhealth <a class="changeColor" href="https://academyhealth.org/ARM" target="_blank">Annual Research Meeting</a>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="flexRow">
+                <a href="https://jkim236.github.io/resume/JoshuaKimResume.pdf" class="download-cv-btn" target="_blank">
+                    <p class="white openSans centered thing rightpadding"> Hire me!</p>
+                </a>
+                <a href="https://jkim236.github.io/resume/JoshuaKimResume.pdf" class="download-cv-btn" target="_blank">
+                    <p class="white openSans centered thing leftpadding5"> Download CV</p>
+                </a>
+            </div>
+        </div>
+        <div class="section3" id="projects">
+            <h1 class="centered aboutText tomato letterspacing5px">PROJECTS</h1>
+            <h1 class="centered paddingTop3 aboutText text-size43">Some of my past works.</h1>
+            <div class="container">
+                <a href="https://github.com/jkim236/Goalshare-tree2" class="no-underline">
+                    <div class="projectContainer">
+                        <h1 class="text-padding">Goalshare</h1>
+                        <h3 class="text-padding2">Productivity app</h3>
+                        <img src="Goalshare_logo.png" class="tempy">
+                        <img src="plus_icon.png" class="plus">
+                    </div>
+                </a>
+                <a href="https://github.com/jkim236/CP-Practice-projects" class="no-underline">
+                    <div class="projectContainer2">
+                        <h1 class="text-padding">Java algorithms</h1>
+                        <h1 class="text-padding2">Data structures and algorithms implementation</h1>
+                        <img src="graph_logo.jpeg" class="tempy">
+                        <img src="plus_icon.png" class="plus">
+                    </div>
+                </a>
+                <a href="https://www.sciencedirect.com/science/article/pii/S2213076422000501?dgcid=author" class="no-underline">
+                    <div class="projectContainer2">
+                        <h1 class="text-padding">The case for unlearning health systems</h1>
+                        <h1 class="text-padding2">Peer-reviewed publication</h1>
+                        <img src="healthcare_icon.png" class="tempy">
+                        <img src="plus_icon.png" class="plus">
+                    </div>
+                </a>
+                <a href="https://www.sciencedirect.com/science/article/pii/S2213076422000501?dgcid=author" class="no-underline">
+                    <div class="projectContainer2">
+                        <h1 class="text-padding">Huffman Decompressor</h1>
+                        <h1 class="text-padding2">Memory optimization algorithm</h1>
+                        <img src="huffman_icon.png" class="tempy">
+                        <img src="plus_icon.png" class="plus">
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/huskystringing/" class="no-underline">
+                    <div class="projectContainer2">
+                        <h1 class="text-padding">Husky Stringing</h1>
+                        <h1 class="text-padding2">Startup company</h1>
+                        <img src="husky_stringing_icon.png" class="tempy">
+                        <img src="plus_icon.png" class="plus">
+                    </div>
+                </a>
+                <a href="https://www.pointless.com/" class="no-underline">
+                    <div class="projectContainer2">
+                        <h1 class="text-padding">Personal Website</h1>
+                        <h1 class="text-padding2">Web development</h1>
+                        <img src="website_page.png" class="tempy">
+                        <img src="plus_icon.png" class="plus">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="section4">
+            <h1 class="aboutText tomato letterspacing5px self-align-center paddingTop5">Contact</h1>
+            <h1 class="centered paddingTop2 connect-text">I would love to connect with you!</h1>
+            <div class="contact-container">
+                <div class="contactbox1">
+                    <img id="LiLink3" src="linkedin_logo_dark_blue.png" alt="linkedin link">
+                    <h1 class="contact-text">Let's connect!</h1>
+                    <a href="https://www.linkedin.com/in/joshua-kim-aa0a30244/" class="changeColor2">
+                        <h5 class="arial"> Linkedin Profile </h5>
+                    </a>
+                </div>
+                <div class="contactbox2">
+                    <img id="MailLink3" src="mail_logo_dark_blue.png" alt="email link">
+                    <h1 class="contact-text">Email me at</h1>
+                    <h5 class="arial">jkim236@uw.edu</h5>
+                </div>
+            </div>
+        </div>
+        <script src="websiteJS.js"></script>
+
+    </body>
+</html>
