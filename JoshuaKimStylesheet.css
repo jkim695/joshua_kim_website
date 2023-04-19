@@ -467,7 +467,7 @@ ul {
 }
 .section3 {
   padding-top: 40px;
-  background-color: navajowhite;
+  background-color: purple;
   width: 100%;
   height: 100%;
 }
@@ -575,7 +575,7 @@ ul {
     width: 100%;
     align-items: center;
     justify-content: center;
-    gap: calc(40 + 2%)px;
+    gap: calc(40px + 15%);
     margin: 0 auto;
     align-self: center;
     padding-bottom: 50px;
@@ -618,8 +618,7 @@ ul {
   font-family: Arial;
 }
 .changeColor2 {
-  color: rgb(109, 108, 108);
-  text-decoration: none;
+  color: rgb(56, 55, 55);
   transition: ease 0.2s;
 }
 .changeColor2:hover {

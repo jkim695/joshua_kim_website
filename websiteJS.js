@@ -9,6 +9,10 @@ function scrollToTarget3() {
     var target = document.getElementById("projects");
     target.scrollIntoView({ behavior: 'smooth' });
 }
+function scrollToTarget4() {
+    var target = document.getElementById("sec4");
+    target.scrollIntoView({ behavior: 'smooth' });
+}
 const elementToToggle = document.querySelector('.scroller');
 const body = document.querySelector('body');
 
