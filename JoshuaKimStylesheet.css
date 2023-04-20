@@ -389,11 +389,6 @@ ul {
   .info-list {
     padding-bottom: 30px;
   }
-  
-  .download-cv-btn, .hireme {
-    width: 250px;
-    height: 55px;
-  }
   .download-cv-btn {
     display: flex;
     justify-content: center;
@@ -411,6 +406,26 @@ ul {
     transition: background-color 0.3s;
   }
   .download-cv-btn:hover {
+    background-color: #414141;
+    cursor: pointer;
+  }
+  .hire-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1a8f9c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 4px;
+    width: 291px;
+    height: 61px;
+    transition: background-color 0.3s;
+  }
+  .hire-me:hover {
     background-color: #414141;
     cursor: pointer;
   }
