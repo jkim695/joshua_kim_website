@@ -7,7 +7,7 @@ function scrollToTarget2() {
 }
 function scrollToTarget3() {
     const rect3 = document.getElementById('projects').getBoundingClientRect()
-    window.scrollTo({top: window.scrollY + rect3.top - 90, behavior: 'smooth'});
+    window.scrollTo({top: window.scrollY + rect3.top - 50, behavior: 'smooth'});
     target.scrollIntoView({ behavior: 'smooth' });
 }
 function scrollToTarget4() {
