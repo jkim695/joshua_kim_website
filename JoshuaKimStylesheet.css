@@ -1,6 +1,14 @@
+html {
+  background-color: black;
+}
+
 body, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
+}
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 .box {
     display: flex;
@@ -67,8 +75,8 @@ body, h1, h2, h3, h4, h5, h6, p {
 .white {
     color: white;
 }
-.spaced3px {
-    letter-spacing: 3px;
+.spaced4px {
+    letter-spacing: 4px;
 }
 .openSans {
     font-family: 'opensans-bold', sans-serif;
@@ -84,6 +92,7 @@ body, h1, h2, h3, h4, h5, h6, p {
     margin: 0 auto;
     align-self: center;
     transform: translateX(-4%);
+    background-size: cover;
 }
 .scroller {
     position: fixed;
@@ -93,12 +102,12 @@ body, h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     flex-wrap: wrap;
     width: 100%;
-    height: 35px;
     padding-top: 15px;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
     color: white;
+    background-size: cover;
     gap: 40px
 }
 .fade {
@@ -463,15 +472,16 @@ ul {
     transition: ease 0.3s;
   }
   .scrollButton {
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 700;
     font-family: 'Arial';
   }
   .white-line {
+    margin-top: -13px;
     width: 100%;
     height: 2px;
     background-color: white;
     border: none;
-    transform: translateY(-35px);
 }
 .changeColor {
   color: rgb(218, 196, 0);
@@ -485,7 +495,7 @@ ul {
   padding-top: 40px;
   background-color: purple;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 .container {
   margin: 0 auto;
@@ -577,7 +587,7 @@ ul {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: white;
+  background-color: rgb(16, 16, 16);
   width: 100%;
   margin-top: -13px;
   gap: 40px;
@@ -622,6 +632,7 @@ ul {
 .connect-text {
   font-family: 'Arial', sans-serif;
   align-items: center;
+  color: white;
 }
 .contact-text {
   font-family: Arial, Helvetica, sans-serif;
@@ -635,9 +646,12 @@ ul {
   font-family: Arial;
 }
 .changeColor2 {
-  color: rgb(56, 55, 55);
+  color: aqua;
   transition: ease 0.2s;
 }
 .changeColor2:hover {
-  color: aqua;
+  color: rgb(56, 55, 55);
+}
+.lesser-font-weight {
+  font-weight: 350;
 }
