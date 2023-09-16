@@ -104,8 +104,6 @@ body {
     width: 100%;
     padding-top: 15px;
     position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
     color: white;
     background-size: cover;
     gap: 40px
@@ -186,6 +184,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     max-width: 400px;
+    margin-top: -8.4%;
 }
 .strong {
     color: #303030;
@@ -246,7 +245,7 @@ ul {
     flex-direction: column;
     max-width: 400px;
     padding-left: 7%;
-    margin-top: 6.8%;
+    margin-top: 3%;
 }
 @media(max-width: 968px) {
     .profile_skills {
@@ -493,7 +492,7 @@ ul {
 }
 .section3 {
   padding-top: 40px;
-  background-color: purple;
+  background-color: rgb(124, 0, 155);
   width: 100%;
   min-height: 100vh;
 }
@@ -654,4 +653,7 @@ ul {
 }
 .lesser-font-weight {
   font-weight: 350;
+}
+.margin-top {
+  margin-top: 20px;
 }
